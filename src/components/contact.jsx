@@ -17,7 +17,7 @@ class Contact extends React.Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
-                        <h5 className="title-left">Send A Message</h5>
+                        <h5 className="title-left">Send me a message</h5>
                       </div>
                       <div>
                         <form

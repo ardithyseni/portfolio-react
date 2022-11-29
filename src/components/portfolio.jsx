@@ -1,7 +1,6 @@
 import React from "react";
 
-//import stock
-import stock from "../img/image1.jpg";
+//import images
 import memories1 from '../img/memories1.jpg'
 import memories2 from '../img/memories2.jpg'
 import memories3 from '../img/memories3.jpg'
@@ -25,13 +24,20 @@ import mvc1 from '../img/mvc1.jpg'
 import mvc2 from '../img/mvc2.jpg'
 import mvc3 from '../img/mvc3.jpg'
 
+import ski1 from '../img/ski1.jpg'
+import ski2 from '../img/ski2.jpg'
+import ski3 from '../img/ski3.jpg'
+import ski4 from '../img/ski4.jpg'
+import ski5 from '../img/ski5.jpg'
+import ski6 from '../img/ski6.jpg'
+
+import blog1 from "../img/blog1.jpg";
+import blog2 from "../img/blog2.jpg";
+import blog3 from "../img/blog3.jpg";
+import blog4 from "../img/blog4.jpg";
+import blog5 from "../img/blog5.jpg";
 
 
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
 
 class Portfolio extends React.Component {
   render() {
@@ -56,24 +62,31 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={memories1} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Memories App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            MERN, GoogleOAuth2
-                          </span>
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Memories App</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          MERN, GoogleOAuth2
+                        </span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/ardithyseni/memories-app"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="ion-social-github"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+
                 <a
                   href={memories2}
                   data-lightbox="gallery-vmarine"
@@ -88,7 +101,7 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                
+
               </div>
             </div>
             <div className="col-md-6">
@@ -97,24 +110,31 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={activities1} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-9">
-                        <h2 className="w-title">Activities App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            .NET, SQLite, React
-                          </span>{" "}
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-9">
+                      <h2 className="w-title">Activities App</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          .NET, SQLite, React
+                        </span>{" "}
                       </div>
-                      <div className="col-sm-3">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/ardithyseni/Reactivities"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="ion-social-github"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+
                 <a
                   href={activities1}
                   data-lightbox="gallery-aguadeluz"
@@ -151,25 +171,32 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={meetup1} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-9">
-                        <h2 className="w-title">Meetuper App</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            MEVN
-                          </span>
-                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-9">
+                      <h2 className="w-title">Meetuper App</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          MEVN
+                        </span>
+                        {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                       </div>
-                      <div className="col-sm-3">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/ardithyseni/vue-meetup-app"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="ion-social-github"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+
                 <a
                   href={meetup1}
                   data-lightbox="gallery-todo"
@@ -234,26 +261,27 @@ class Portfolio extends React.Component {
                   <div className="work-img">
                     <img src={mvckrye} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-9">
-                        <h2 className="w-title">.NET 5 MVC E-Commerce</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            .NET 5 MVC, Bootstrap, REST
-                          </span>
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-9">
+                      <h2 className="w-title">.NET 5 MVC E-Commerce</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          .NET 5 MVC, Bootstrap, REST
+                        </span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+
                 <a
-                  href={mvckrye}
+                  href={mvc1}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
@@ -277,56 +305,63 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-6">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
+                <a href={ski1} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={ski2} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-9">
-                        <h2 className="w-title">Ski Store</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-9">
+                      <h2 className="w-title">Ski Store</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">MERN</span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/ardithyseni/SkiStore"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="ion-social-github"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+
                 <a
-                  href={stock1}
+                  href={ski2}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={ski3}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={ski4}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={ski5}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={ski6}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
@@ -336,58 +371,58 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-6">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
+                <a href={blog1} data-lightbox="gallery-mf">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={blog1} alt="" className="img-fluid" />
                   </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-9">
-                        <h2 className="w-title">Blog Site</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Laravel CMS
-                          </span>
-                        </div>
+                </a>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-9">
+                      <h2 className="w-title">Blog Site</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          Laravel CMS
+                        </span>
                       </div>
-                      <div className="col-sm-3">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
-                        </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/ardithyseni/blog-app"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="ion-social-github"></i>
+                        </a>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+
                 <a
-                  href={stock1}
+                  href={blog2}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={blog3}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={blog4}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
+                  href={blog5}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
