@@ -625,9 +625,10 @@ INTRO
   font-weight: 300;
 }
 
-/* .intro .text-slider-items {
+.intro .text-slider {
   font-weight: bolder;
-} */
+  height: '20px';
+}
 
 .intro-single {
   height: 350px;

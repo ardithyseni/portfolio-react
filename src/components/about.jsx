@@ -90,7 +90,7 @@ class About extends React.Component {
         {
           id: "third-p-about",
           content:
-            "Here you can see my hard skills listed. Below this you can find my web application projects."
+            "Here you can see my hard skills listed. Below you can find my web application projects."
         }
       ]
     };

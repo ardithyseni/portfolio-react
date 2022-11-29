@@ -13,11 +13,11 @@ const Intro = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Web Developer", "Full-Stack", " "], // Strings to display
+      strings: ["Web Developer", "Full-Stack", "Computer Science Bachelor"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 200,
-      typeSpeed: 100,
-      backSpeed: 100,
+      typeSpeed: 90,
+      backSpeed: 90,
       backDelay: 150,
       smartBackspace: true,
       loop: true,
