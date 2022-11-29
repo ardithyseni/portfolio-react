@@ -107,13 +107,9 @@ class Contact extends React.Component {
                           collaboration, or just say hi, I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill the form and send me an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                        
                       </div>
                       <div className="socials">
                         <ul>

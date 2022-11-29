@@ -75,17 +75,23 @@ class About extends React.Component {
           percentage: "40%", 
           value: "40"
         },
+        {
+          id: "GoogleSkill",
+          content: "Google Search", 
+          percentage: "98%", 
+          value: "98"
+        },
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-             "Hi, I’m Ardit Hyseni, a Computer Science and Engineering Graduate @UBT Prishtina, Kosovo. I'm currently 21 years old. I’m interested in software development, currently focused on Web Development. I am certified in the Microsoft Azure Cloud Service Fundamentals, and have general knowledge on IT & Computer Science subjects."
+             "Hi, I’m Ardit Hyseni, a Computer Science and Engineering Graduate @UBT Prishtina, Kosovo. I'm currently 21 years old. I’m interested in software development, currently focused on Web Development. I have a certification of completing the Microsoft Azure Cloud Service Fundamentals, and have general knowledge on IT & Computer Science."
         },
         {
           id: "second-p-about",
           content:
-            "Experienced in all stages of web development: designing, implementing, testing, and debugging processes. I have built several full-stack projects, both individually and in teams, some of which are hosted online."
+            "Experienced in all stages of web development: designing, implementing, testing, and debugging processes. I have built several full-stack projects, both individually and in teams, some of which are hosted online. My everlasting curiosity coupled with the desire to be challenged makes me a dedicated developer, continuously advancing and growing."
         },
         {
           id: "third-p-about",
@@ -122,7 +128,7 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                      <p className="title-s">My Skills</p>
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>

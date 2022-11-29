@@ -117,7 +117,7 @@ class Portfolio extends React.Component {
                       <h2 className="w-title">Activities App</h2>
                       <div className="w-more">
                         <span className="w-ctegory">
-                          .NET, SQLite, React
+                          .NET, SQLite, React, MobX, Redux
                         </span>{" "}
                       </div>
                     </div>
@@ -135,13 +135,6 @@ class Portfolio extends React.Component {
                   </div>
                 </div>
 
-                <a
-                  href={activities1}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
                 <a
                   href={activities2}
                   data-lightbox="gallery-aguadeluz"
@@ -197,13 +190,6 @@ class Portfolio extends React.Component {
                   </div>
                 </div>
 
-                <a
-                  href={meetup1}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
                 <a
                   href={meetup2}
                   data-lightbox="gallery-todo"
@@ -315,7 +301,7 @@ class Portfolio extends React.Component {
                     <div className="col-sm-9">
                       <h2 className="w-title">Ski Store</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">MERN</span>
+                        <span className="w-ctegory">.NET Core 5, React, Redux, Stripe</span>
                       </div>
                     </div>
                     <div className="col-sm-3">
