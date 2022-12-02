@@ -40,7 +40,7 @@ const Intro = () => {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am Ardit Hyseni</h1>
+              <h1 className="intro-title mb-4">Hi, I'm Ardit Hyseni</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider" ref={el}>
