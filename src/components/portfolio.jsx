@@ -58,6 +58,55 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-6">
               <div className="work-box">
+              
+                  <div className="work-img">
+                    <img src="https://placehold.co/550x270?text=Coming+Soon" alt="" className="img-fluid" />
+                  </div>
+                
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">MERN E-Commerce</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          MERN, Firebase, Stripe
+                        </span>
+                      </div>
+                    </div>
+                    <div className="col-sm-3">
+                      <div className="w-like">
+                        <a
+                          href="https://github.com/ardithyseni/mern-ecommerce"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="ion-social-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* <a
+                  href={memories2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={memories3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a> */}
+
+              </div>
+            </div>
+            
+            <div className="col-md-6">
+              <div className="work-box">
                 <a href={memories1} data-lightbox="gallery-vmarine">
                   <div className="work-img">
                     <img src={memories1} alt="" className="img-fluid" />
@@ -104,6 +153,7 @@ class Portfolio extends React.Component {
 
               </div>
             </div>
+            
             <div className="col-md-6">
               <div className="work-box">
                 <a href={activities1} data-lightbox="gallery-aguadeluz">
